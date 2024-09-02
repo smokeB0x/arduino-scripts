@@ -7,3 +7,8 @@ The purpose is to demonstrate how to connect a serial to USB adapter and read th
 
 # Arduino input password test
 A script where the user is asked for a password and must input the right one to get the secret message
+
+# JTAGenum
+A script for identifying JTAG pinouts.
+Taken from the JTAGenum.ino script from here:
+https://github.com/cyphunk/JTAGenum
