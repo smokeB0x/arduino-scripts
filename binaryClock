@@ -1,0 +1,35 @@
+/*
+Script for a binary clock of LEDs - 24h
+Microcontroller: Arduino NANO
+Created: 09.09.24
+Version: 1.0
+*/
+// Define the output pins of the LEDs
+int hourOne = ;
+int hourTwo = ;
+int hourFour = ;
+int hourEight = ;
+int hourSixteen = ;
+
+int minOne = ;
+int minTwo = ;
+int minFour = ;
+int minEight = ;
+int minSixteen = ;
+int minThirtyTwo = ;
+
+//Define the output of the LEDs to be OUTPUT
+void setup() {
+
+pinMode(hourOne, OUTPUT);
+pinMode(hourTwo, OUTPUT);
+pinMode(hourFour, OUTPUT);
+pinMode(hourEight, OUTPUT);
+pinMode(hourSixteen, OUTPUT);
+
+pinMode(minOne, OUTPUT);
+pinMode(minTwo, OUTPUT);
+pinMode(minFour, OUTPUT);
+pinMode(minEight, OUTPUT);
+pinMode(minSixteen, OUTPUT);
+pinMode(minThirtyTwo, OUTPUT);
