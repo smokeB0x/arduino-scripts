@@ -12,23 +12,23 @@ int minutes = 0;
 int hours = 0;
 
 //Declare buttons
-int buttonDecrease = A0;
-int buttonIncrease = A1;
+int buttonIncrease = A0;
+int buttonDecrease = A1;
 
 //Declare hour LEDs
-int hourOne = 2;
-int hourTwo = 3;
+int hourOne = 6;
+int hourTwo = 5;
 int hourFour = 4;
-int hourEight = 5;
-int hourSixteen = 6;
+int hourEight = 3;
+int hourSixteen = 2;
 
 //Declare minute LEDs
-int minOne = 7;
-int minTwo = 8;
-int minFour = 9;
-int minEight = 10;
-int minSixteen = 11;
-int minThirtyTwo = 12;
+int minOne = 12;
+int minTwo = 11;
+int minFour = 10;
+int minEight = 9;
+int minSixteen = 8;
+int minThirtyTwo = 7;
 
 void setup() {
   pinMode(buttonDecrease, INPUT);
