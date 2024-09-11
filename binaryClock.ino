@@ -3,32 +3,32 @@ Script for a binary clock of LEDs - 24h
 Microcontroller: Arduino NANO
 Created: 09.09.24
 Last updated: 10.09.24
-Version: 1.3
+Version: 1.4
 */
 
 unsigned long previousMillis = 0;  // Store the last time minutes were updated
 const unsigned long interval = 60000;  // 60000 milliseconds = 60 seconds
-int minutes = 45;
-int hours = 23;
+int minutes = 0;
+int hours = 0;
 
 //Declare buttons
-int buttonDecrease = A4;
-int buttonIncrease = A5;
+int buttonDecrease = A0;
+int buttonIncrease = A1;
 
 //Declare hour LEDs
-int hourOne = 8;
-int hourTwo = 9;
-int hourFour = 10;
-int hourEight = 11;
-int hourSixteen = 12;
+int hourOne = 2;
+int hourTwo = 3;
+int hourFour = 4;
+int hourEight = 5;
+int hourSixteen = 6;
 
 //Declare minute LEDs
-int minOne = 2;
-int minTwo = 3;
-int minFour = 4;
-int minEight = 5;
-int minSixteen = 6;
-int minThirtyTwo = 7;
+int minOne = 7;
+int minTwo = 8;
+int minFour = 9;
+int minEight = 10;
+int minSixteen = 11;
+int minThirtyTwo = 12;
 
 void setup() {
   pinMode(buttonDecrease, INPUT);
